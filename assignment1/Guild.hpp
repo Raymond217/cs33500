@@ -7,7 +7,7 @@
 
 class Guild {
     private: 
-        /**whatsupp ww2
+        /**whatsupp ww3
         * @brief A vector containing the players currently enlisted in the guild.
         */
         std::vector<Player> enlisted_players;
