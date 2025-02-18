@@ -1,6 +1,6 @@
 #include "Player.hpp"
 
-Player::Player(const std::string& name, const Inventory& inventory = Inventory()):name_(name),inventory_(inventory)
+Player::Player(const std::string& name, const Inventory& inventory):name_(name),inventory_(inventory)
 {
 
 }

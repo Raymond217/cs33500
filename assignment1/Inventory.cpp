@@ -101,7 +101,7 @@ Inventory& Inventory::operator=(Inventory&& rhs)
         rhs.item_count_=0;
         rhs.inventory_grid_.clear();
     }
-
+    return *this;
 }
 Inventory::~Inventory()
 {
